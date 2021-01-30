@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { Link as LinkR } from 'react-router-dom'
 
 export const Nav = styled.nav`
     background: #000;
