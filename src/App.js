@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          what's up
-        </p>
-      </header>
+    <div>
+      <Navbar />
     </div>
   );
 }
