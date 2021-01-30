@@ -7,7 +7,14 @@ const Navbar = () => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to="/">Tobyfatumo</NavLogo>
-                    <h1></h1>
+                    <MobileIcon>
+                        <FaBars />
+                    </MobileIcon>
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to="about"></NavLinks>
+                        <NavItem>
+                    </NavMenu>
                 </NavbarContainer>
             </Nav>
         </>
