@@ -13,7 +13,7 @@ const Navbar = () => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks to="about"></NavLinks>
-                        <NavItem>
+                        </NavItem>
                     </NavMenu>
                 </NavbarContainer>
             </Nav>
