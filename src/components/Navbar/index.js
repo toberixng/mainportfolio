@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, NavbarContainer, NavLogo } from './NavbarElements';
+import { MobileIcon, Nav, NavbarContainer, NavItem, NavLogo, NavMenu } from './NavbarElements';
 
 const Navbar = () => {
     return (
@@ -8,11 +8,11 @@ const Navbar = () => {
                 <NavbarContainer>
                     <NavLogo to="/">Tobyfatumo</NavLogo>
                     <MobileIcon>
-                        <FaBars />
+                        {/* <FaBars /> */}
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about"></NavLinks>
+                            {/* <NavLinks to="about"></NavLinks> */}
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
