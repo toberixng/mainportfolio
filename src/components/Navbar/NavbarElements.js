@@ -44,7 +44,7 @@ text-decoration: none;
 export const MobileIcon = styled.div`
 display: none;
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
     display: block;
     position: absolute;
     top: 0;
@@ -52,6 +52,7 @@ display: none;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    color: #fff;
 }
 `
 
