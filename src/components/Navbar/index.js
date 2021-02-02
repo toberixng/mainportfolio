@@ -16,11 +16,16 @@ const Navbar = () => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to="/">Tobyfatumo</NavLogo>
-                    kjljlkjlkjlkj
                     <MobileIcon>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
+                        <NavItem>
+                            <NavLinks to="about">About</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="discover">Discover</NavLinks>
+                        </NavItem>
                         <NavItem>
                             <NavLinks to="about">About</NavLinks>
                         </NavItem>
