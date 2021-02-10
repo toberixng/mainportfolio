@@ -103,12 +103,13 @@ padding: 10px 22px;
 color:#010606;
 font-size: 16px;
 outline: none;
-cursor: none;
+cursor: pointer;
 transition: all 0.2s ease-in-out;
 text-decoration: none;
 
 &:hover {
     transition: all 0.2s ease-in-out;
+    background: #fff;
     color: #010606;
 }
 `
