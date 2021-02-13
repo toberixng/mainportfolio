@@ -20,29 +20,29 @@ export const Nav = styled.nav`
 `;
 
 export const NavbarContainer = styled.div`
-display: flex;
-justify-content: space-between;
-height: 80px;
-z-index: 1;
-width: 100%;
-padding: 0 24px;
-max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    padding: 0 24px;
+    max-width: 1100px;
 `;
 
 export const NavLogo = styled(LinkR)`
-color: #fff;
-justify-self: flex-start;
-cursor: pointer;
-font-size: 1.5rem;
-display: flex;
-align-items: center;
-margin-left: 24px;
-font-weight: bold;
-text-decoration: none;
+    color: #fff;
+    justify-self: flex-start;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    font-weight: bold;
+    text-decoration: none;
 `;
 
 export const MobileIcon = styled.div`
-display: none;
+    display: none;
 
 @media screen and (max-width: 768px) {
     display: block;
@@ -57,11 +57,11 @@ display: none;
 `
 
 export const NavMenu = styled.ul`
-display: flex;
-align-items: center;
-list-style: none;
-text-align: center;
-margin-right: -22px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin-right: -22px;
 
 @media screen and (max-width: 768px){
     display: none;
@@ -87,8 +87,8 @@ export const NavLinks = styled(LinkS)`
 `
 
 export const NavBtn = styled.nav `
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 
 @media screen and (max-width: 768px){
     display: none;
@@ -96,16 +96,16 @@ align-items: center;
 `
 
 export const NavBtnLink = styled(LinkR)`
-border-radius: 50px;
-background: #01bf71;
-white-space: nowrap;
-padding: 10px 22px;
-color:#010606;
-font-size: 16px;
-outline: none;
-cursor: pointer;
-transition: all 0.2s ease-in-out;
-text-decoration: none;
+    border-radius: 50px;
+    background: #01bf71;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color:#010606;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
 
 &:hover {
     transition: all 0.2s ease-in-out;
