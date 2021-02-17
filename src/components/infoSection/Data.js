@@ -14,3 +14,5 @@ export const homeObjOne = {
     primary: true,
     darkText: false
 }
+
+// brand color #4134EC
