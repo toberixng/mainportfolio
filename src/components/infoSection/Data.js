@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. A, et sint. Sapiente necessitatibus atque quaerat dicta, itaque quo doloribus vel facere distinctio et non placeat, esse nemo? Recusandae, ullam eligendi!',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: require('../../images/svg-1.svg').default,
+    img: require('../../images/svg2.svg').default,
     alt: 'Car',
     dark: true,
     dark2: true,
@@ -18,40 +18,22 @@ export const homeObjOne = {
 
 // brand color #4134EC
 
-export const homeObjOne = {
-    id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Premium Medical',
-    headline: 'Unlimited Transaction with zero fees',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. A, et sint. Sapiente necessitatibus atque quaerat dicta, itaque quo doloribus vel facere distinctio et non placeat, esse nemo? Recusandae, ullam eligendi!',
-    buttonLabel: 'Get started',
-    imgStart: false,
-    img: require('../../images/svg-2.svg').default,
-    alt: 'Car',
-    dark: true,
-    dark2: true,
-    primary: true,
-    darkText: false
-}
-
 export const homeObjTwo = {
-    id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    id: 'discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Premium Medical',
     headline: 'Unlimited Transaction with zero fees',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. A, et sint. Sapiente necessitatibus atque quaerat dicta, itaque quo doloribus vel facere distinctio et non placeat, esse nemo? Recusandae, ullam eligendi!',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: require('../../images/svg-3.svg').default,
+    img: require('../../images/svg3.svg').default,
     alt: 'Car',
-    dark: true,
-    dark2: true,
+    dark: false,
+    dark2: false,
     primary: true,
-    darkText: false
+    darkText: true
 }
 export const homeObjThree = {
     id: 'about',
@@ -63,7 +45,7 @@ export const homeObjThree = {
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. A, et sint. Sapiente necessitatibus atque quaerat dicta, itaque quo doloribus vel facere distinctio et non placeat, esse nemo? Recusandae, ullam eligendi!',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: require('../../images/svg-1.svg').default,
+    img: require('../../images/svg4.svg').default,
     alt: 'Car',
     dark: true,
     dark2: true,
