@@ -19,7 +19,8 @@ const HeroStyles = styled.div`
   }
   .hero__heading {
     font-size: 2rem;
-    /* margin-bottom: -25rem; */
+    margin-top: 13rem;
+    margin-bottom: -5rem;
     position: relative;
     span {
       display: inline-block;
@@ -47,7 +48,6 @@ const HeroStyles = styled.div`
     flex-direction: column;
     gap: 2rem;
     position: absolute;
-
     bottom: 20px;
     width: 50px;
   }
@@ -97,11 +97,12 @@ const HeroStyles = styled.div`
 
   @media only screen and (max-width: 768px) {
     .hero {
-      min-height: 750px;
+      min-height: 600px;
     }
     .hero__heading {
       font-size: 1.4rem;
-      /* margin-bottom: -3rem; */
+      margin-top: -5rem;
+      margin-bottom: 5rem;
       .hero__name {
         font-size: 4.5rem;
       }
@@ -110,7 +111,7 @@ const HeroStyles = styled.div`
       height: 300px;
     }
     .hero__info {
-      margin-top: 3rem;
+      margin-top: 2rem;
     }
     .hero__social {
       left: 0px;
