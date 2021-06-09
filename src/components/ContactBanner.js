@@ -6,8 +6,9 @@ import PText from './PText';
 const ContactBannerStyles = styled.div`
   padding: 5rem 0;
   .contactBanner__wrapper {
-    background-color: var(--deep-dark);
-    border-radius: 12px;
+    border-radius: 26px;
+    background: #01061a;
+    box-shadow: -16px -16px 32px #00020a, 16px 16px 32px #020a2a;
     padding: 5rem 0rem;
     text-align: center;
   }

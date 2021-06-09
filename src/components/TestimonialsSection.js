@@ -19,8 +19,9 @@ const TestimonialSectionStyles = styled.div`
     width: 100%;
     height: fit-content;
     padding: 3rem;
-    background-color: var(--deep-dark);
-    border-radius: 12px;
+    border-radius: 26px;
+    background: #01061a;
+    box-shadow: -16px -16px 32px #00020a, 16px 16px 32px #020a2a;
     margin-top: 5rem;
   }
   .testimonial__desc {
