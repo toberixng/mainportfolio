@@ -1,12 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
-import RobotoMonoRegular from '../assets/fonts/RobotoMono-Regular.ttf';
+import MateSCRegular from '../assets/fonts/MateSC-Regular.ttf';
 import MontserratSemiBold from '../assets/fonts/Montserrat-SemiBold.ttf';
 import MontserratBold from '../assets/fonts/Montserrat-Bold.ttf';
 
 const Typography = createGlobalStyle`
   @font-face {
     font-family: 'RobotoMono Regular';
-    src: url(${RobotoMonoRegular});
+    src: url(${MateSCRegular});
     font-style: normal;
   }
   @font-face {

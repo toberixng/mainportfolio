@@ -6,22 +6,6 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     box-sizing: border-box;
   }
-  /* :root{
-    --dark-bg: #07060A;
-    --gray-1: #3829F9;
-    --deep-dark: #14192D;
-    --gray-2: #FCA7CF;
-    --white : white;
-    --black: black;
-  } */
-  /* :root{
-    --dark-bg: #CBDFE1;
-    --gray-1: #FBFBFC;
-    --deep-dark: #07060A;
-    --gray-2: #554337;
-    --white : white;
-    --black: black;
-  } */
   :root{
     --dark-bg: #0c012e;
     --gray-1: #FBFBFC;

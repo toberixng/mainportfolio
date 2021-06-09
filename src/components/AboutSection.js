@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
-import AboutImg from '../assets/images/myself.svg';
+import AboutImg from '../assets/images/about-sec-img3.png';
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -13,14 +13,21 @@ const AboutSectionStyles = styled.div`
     justify-content: flex-start;
     text-align: left;
   }
-  .aboutSection__left,
+
+  .aboutSection__left {
+    flex: 3;
+    padding-left: 50px;
+  }
+
   .aboutSection__right {
     flex: 1;
   }
 
   .aboutImg {
-    width: 100%;
-    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 350px;
   }
   .section-title {
     text-align: left;
@@ -79,7 +86,7 @@ export default function AboutSection() {
   return (
     <AboutSectionStyles>
       <div className="container">
-        <div className="aboutSection__left">
+        <div id="aboutSection__left" className="aboutSection__left">
           <SectionTitle
             subheading="Let me introduce myself"
             heading="About Me"
