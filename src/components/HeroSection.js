@@ -67,12 +67,12 @@ const HeroStyles = styled.div`
       letter-spacing: 0.7rem;
       text-transform: uppercase;
     }
-    img {
+    /* img {
       max-height: 45px;
       width: 16px;
       margin: 0 auto;
       object-fit: contain;
-    }
+    } */
   }
   .hero__scrollDown {
     img {
