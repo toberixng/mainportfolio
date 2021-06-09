@@ -24,14 +24,13 @@ const AboutSectionStyles = styled.div`
   }
 
   .aboutImg {
-    border: 1px solid #ddd;
-    border-radius: 4px;
     padding: 5px;
     width: 350px;
-    border-radius: 50px;
-    background: #15093b;
-    box-shadow: 20px 20px 60px #120832, -20px -20px 60px #180a44;
+    border-radius: 26px;
+    background: #01061a;
+    box-shadow: -16px -16px 32px #00020a, 16px 16px 32px #020a2a;
   }
+
   .section-title {
     text-align: left;
   }
