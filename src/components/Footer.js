@@ -133,9 +133,9 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
+            © 2021 - tobyfatumo | Designed By{' '}
+            <a target="_blank" rel="noreferrer" href="tobyfatumo.co">
+              Tobyfatumo
             </a>{' '}
           </PText>
         </div>

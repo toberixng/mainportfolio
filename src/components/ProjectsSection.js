@@ -26,7 +26,9 @@ const ProjectSectionStyle = styled.div`
     position: absolute;
     height: 50px;
     width: 50px;
-    background: var(--deep-dark);
+    border-radius: 0px;
+    background: #01061a;
+    box-shadow: inset -6px -6px 13px #00020a, inset 6px 6px 13px #020a2a;
     z-index: 10;
     right: 60px;
     left: auto;
