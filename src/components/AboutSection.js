@@ -28,6 +28,9 @@ const AboutSectionStyles = styled.div`
     border-radius: 4px;
     padding: 5px;
     width: 350px;
+    border-radius: 50px;
+    background: #15093b;
+    box-shadow: 20px 20px 60px #120832, -20px -20px 60px #180a44;
   }
   .section-title {
     text-align: left;
