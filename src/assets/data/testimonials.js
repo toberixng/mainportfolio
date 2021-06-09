@@ -1,27 +1,27 @@
 const testimonials = [
   {
     id: 1,
-    name: 'Shaif Arfan',
-    title: 'CEO',
-    org: 'WEB CIFAR',
+    name: 'Omoniyi Balogun',
+    title: 'Omoniyi Balogun Msc, ACIPM, EAPA',
+    org: 'Emzor Pharm. Ind,',
     desc:
-      'Ayan is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.',
+      'Oluwatobi is such an intelligent person. He is very focus and Hardworking. Tobi would be an asset to any team.',
   },
   {
     id: 2,
-    name: 'Fahim Elahe',
-    title: 'Co-founder',
-    org: 'Kreetive',
+    name: 'Tochi Nnodim',
+    title: 'Procurement Officer',
+    org: 'Frontwave Ltd',
     desc:
-      'Really amazing communication skills. Always understand what I am trying to achieve. Also, his work is really amazing. Do really high-quality work.',
+      'Fatumo Oluwatobi is a very enthusiastic staff that goes the extra mile to find solution to any difficult situation. He is a good team player and very detailed, its been great working with him.',
   },
   {
     id: 3,
-    name: 'Sayed',
-    title: 'Marketing Head',
-    org: 'Eleven Dawn',
+    name: 'Benjamin Amaechi',
+    title: 'HEAD CONTRACTS',
+    org: 'TOWER POWER',
     desc:
-      'Really hard-working person. Deliver the work as promised. Planning to work more with this person.',
+      'One Of The most committed young men i have l have met in life....undying hunger for knowledge and new ideas',
   },
 ];
 export default testimonials;
