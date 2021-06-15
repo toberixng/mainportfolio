@@ -81,20 +81,27 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                Hi, I am <span>Oluwatobi Fatumo</span>
               </p>
               <h2 className="about__heading">A freelance Web developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                  Results-oriented Front-end Developer dedicated to creating and
+                  optimizing interactive, user-friendly, and feature-rich
+                  websites. Leverage analytical skills and strong attention to
+                  detail in order to deliver original and efficient web
+                  solutions, provide technical knowledge and expertise, build
+                  new websites from start to finish, and successfully manage a
+                  team of other software professionals.
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
+                  Throughout my career, I have been acknowledged as a
+                  solution-focused professional with the ability to design and
+                  develop innovative applications using advanced technologies.
+                  In my current role as a Web Developer for Emzor Pharmaceutical
+                  Industries Limited, I collaborate closely with external
+                  application team to develop and implement different
+                  applications, ensuring optimal functionality, quality, and
+                  reliability.
                   <br />
                   <br />
                   My vision is to make the world a better place. Now almost
@@ -115,15 +122,15 @@ export default function About() {
 
               <AboutInfoItem
                 title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                items={['Johns Hopkins Via Coursera']}
               />
               <AboutInfoItem
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
+                title="College"
+                items={['Yaba College of Technology']}
               />
               <AboutInfoItem
                 title="Varsity"
-                items={['University Of Chitiagong']}
+                items={['Lagos State University']}
               />
             </div>
             <div className="about__info__item">
@@ -147,15 +154,15 @@ export default function About() {
 
               <AboutInfoItem
                 title="2010-2012"
-                items={['junior developer at web Cifar']}
+                items={['junior developer at Faossy Clothing']}
               />
               <AboutInfoItem
                 title="2012-2016"
-                items={['Front end developer at web Cifar ']}
+                items={['Application Support Engineer']}
               />
               <AboutInfoItem
                 title="2016-"
-                items={['Freelance web Developer']}
+                items={['web Developer at emzor Pharma.']}
               />
             </div>
           </div>

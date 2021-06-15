@@ -57,11 +57,13 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Oluwatobi Fatumo</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+            Courteous and enthusiastic, I am interested in IT and everything in
+            its orbit. I have laid my hand on couple of things outside coding
+            but I never get fulfilled. Coding gives me some form of inner joy
+            that I can't explain, it gives me the opportunity to solve problems.
+            I naturally like to pick on difficult task.
           </PText>
         </div>
         <div className="footer__col2">
@@ -96,15 +98,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+2348033880512',
+                path: 'tel:+2348033880512',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'tobyfatumo@gmail.com',
+                path: 'mailto:tobyfatumo@gmail.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'Lagos, Nigeria',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -116,15 +118,15 @@ export default function Footer() {
             links={[
               {
                 title: 'Facebook',
-                path: 'http://facebook.com',
+                path: 'http://facebook.com/toberixng',
               },
               {
                 title: 'Twitter',
-                path: 'http://twitter.com',
+                path: 'http://twitter.com/toberixng',
               },
               {
                 title: 'Instagram',
-                path: 'http://instagram.com',
+                path: 'http://instagram.com/toberixng',
               },
             ]}
           />
