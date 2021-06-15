@@ -83,7 +83,7 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Oluwatobi Fatumo</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A Web developer</h2>
               <div className="about__info">
                 <PText>
                   Results-oriented Front-end Developer dedicated to creating and
@@ -110,7 +110,11 @@ export default function About() {
                   place.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <Button
+                btnText="Download CV"
+                href="../assets/data/OluwatobiFatumo.pdf"
+                download="ResumeOfficial.pdf"
+              />
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
